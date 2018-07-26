@@ -1,21 +1,24 @@
 #include<stdio.h>
-void main()
-{
-int K,arr[50],s,no;
+
+ void main()
+ {
+  int i,arr[20],j,no;
 scanf("%d",&no);
-for(K=0;K<no;k++);
-{
-scanf("%d",&array[K]);
-}
-for(K=0;k<no;k++)
-{
-for(s=k+1;s<no;s++)
-{
-if(arr[k]==arr[s])
-{
-printf("%d\n",arr[k]);
-}
-}
-}
-getch();
-}
+  for(i=0;i<no;i++)
+  {
+   scanf("%d",&arr[i]);
+  }
+  for(i=0; i<no; i++)
+   {
+    for(j=i+1;j<no;j++)
+    {
+    if(arr[i]==arr[j])
+    {
+    printf("%d\n",arr[i]);
+    }
+    
+    
+   }
+   }
+   
+ }
