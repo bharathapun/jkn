@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include<conio.h>
+
  
 int getSingle(int arr[], int n)
 {
